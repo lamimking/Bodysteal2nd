@@ -1,4 +1,4 @@
-name: Build BodySteal
+name: Build BodyStealSkin
 
 on:
   push:
@@ -21,5 +21,5 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: BodySteal
+          name: BodyStealSkin
           path: target/*.jar
