@@ -1,1 +1,11 @@
+# Mining Fatigue level when the RIGHT arm is lost (0 = I, 2 = III, 3 = IV).
+mining-fatigue-level: 3
 
+# How many players/times the Bone Saw can be used before it breaks.
+saw-uses: 3
+
+# Wearing someone else's part: nausea comes back every random 5-10 seconds.
+nausea-min-seconds: 5
+nausea-max-seconds: 10
+# How long each nausea hit lasts.
+nausea-seconds: 4

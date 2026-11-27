@@ -1,1 +1,18 @@
-
+name: BodySteal
+version: 1.2.0
+main: com.bodysteal.BodyStealPlugin
+api-version: '1.21'
+description: Bodysteal PLUGIN BY L4M1MK1NG
+authors: [L4M1MK1NG]
+commands:
+  laps:
+    description: BodySteal command
+    usage: /laps <create|revive|parts|reset|giverevive|givesaw|givebrokensaw|recipes|help> [player]
+  recipes:
+    description: View the BodySteal recipes
+    usage: /recipes
+    aliases: [bsrecipes]
+permissions:
+  bodysteal.admin:
+    description: Use admin /laps subcommands
+    default: op
